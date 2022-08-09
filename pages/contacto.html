@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>CLS - Materiales eléctricos</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="../img/logoCLS.png" class="header__logo" alt="Logo empresa"> 
+        <nav class="header__navbar">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./productos.html">PRODUCTOS</a></li>
+                <li><a href="./novedades.html">NOVEDADES</a></li>
+                <li><a href="./nosotros.html">NOSOTROS</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="principal__titulo">CONTACTO</h2>
+        <h3 class="subtitulo">¿DUDAS? ¡COMUNICATE CON NOSOTROS!</h3>
+            <form class="formulario">
+                <fieldset>
+                    <legend>¡Envianos un mensaje!</legend> 
+                    <div>
+                        <label for="nombre-usuario">Nombre y apellido:</label>
+                            <input type="text" id="nombre-usuario" name="nombre-usuario">
+                    </div>
+                    <div>
+                        <label for="email-usuario">Email:</label>
+                            <input type="email" id="email-usuario" name="email-usuario"> 
+                    </div>
+                    <div>
+                        <h4>¿Por qué motivo querés contactarnos?</h4>
+                        <label for="cotizaciones">Cotizaciones</label>
+                            <input type="radio" id="cotizaciones" name="motivo-consulta" value="consulta-precio">
+                        <label for="tecnica">Consultas técnicas</label>
+                            <input type="radio" id="tecnica" name="motivo-consulta" value="consulta-tecnica">
+                        <label for="stock">Consulta de stock</label>
+                            <input type="radio" id="stock" name="motivo-consulta" value="consulta-stock" >
+                    </div>
+                    <div>
+                        <label for="mensaje-usuario">Dejanos tu mensaje:</label>
+                            <textarea name="Comentarios" id="mensaje-usuario" name="mensaje-usuario" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="news-usuario">¿Querés recibir nuestras novedades y ofertas?</label>
+                            <input type="checkbox" name= "acepta" value="1">
+                    </div>
+                    <div>
+                        <label for="valoracion-usuario">Si ya nos conoce, valore nuestra atención!</label>
+                        <select name="valoracion-usuario" id="valoracion-usuario">
+                            <option value="valoracion-1">Mala</option>
+                            <option value="valoracion-2">Buena</option>
+                            <option value="valoracion-3">¡Muy buena!</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Contactenos!">
+                    <input type="reset" value="Limpiar formulario">
+                </fieldset>
+            </form>
+    </main>
+
+    <footer class="footer">
+        <img src="../img/logoCLS.png" class="footer__img" alt="Logo empresa">
+        <form class="footer__form">
+            <label for="news-usuario">Suscribite a nuestro Newsletter!</label>
+            <input type="email" name= "news-usuario" placeholder="Ingresa tu email">
+        </form>
+        <ul class="footer__contacto">
+            <li>11-4145-8460</li>
+            <li>Quilmes 225, CABA</li>
+            <li>cls@cls.com.ar</li>
+        </ul>
+    </footer> 
+
+</body>
+
+</html>
