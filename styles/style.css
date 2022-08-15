@@ -179,6 +179,9 @@ body{
     height:50px;
 
     margin: 20px;
+
+    transition-duration: 0.4s;
+    transition-delay: 0.1s;
 }
 
 .btn_producto{
@@ -321,6 +324,22 @@ body{
     font-weight:300;
 }
 
+/* ANIMACIONES */
+
+
+.btn:hover{
+    background-color: rgba(17, 58, 100, 0.738) ;
+    border: lightblue 2px solid;
+
+    font-size: 1.2rem;
+
+    width: 230px;
+    height: 60px;
+}
+
+
+
+
 /* MEDIAQUERY */
 
 @media (max-width: 480px){
@@ -406,6 +425,34 @@ body{
         width: 350px;
         height: 350px;
     }
+
+    .btn:hover{
+        background-color: rgba(17, 58, 100, 0.738) ;
+        border: lightblue 2px solid;
+    
+        font-size: 1.4rem;
+    
+        width: 280px;
+        height: 70px;
+    }
+
+    .inicio:hover, .prod:hover, .nov:hover, .nos:hover, .cont:hover{
+        color:rgb(73, 78, 87);
+    }
+
+    .principal__img:hover{
+        border: 2px solid rgba(3, 83, 164, 0.3);
+        width:105%;
+        height:105%;
+        
+    }
+
+    .producto__tarjeta:hover{
+        border: 2px solid rgba(3, 83, 164, 0.5);
+        padding: 10px;
+        margin: 2px;
+    }
+
 }
 
 @media (min-width: 1600px){
