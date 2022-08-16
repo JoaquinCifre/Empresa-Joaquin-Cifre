@@ -5,89 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>CLS - Materiales eléctricos</title>
 </head>
 
-<body class="body-index">
+<body>
     
-    <header class="header">
-        <img src="./img/logoCLS.png" class="header__logo" alt="Logo empresa"> 
-        <nav class="header__navbar">
+    <header>
+        <img src="./img/logoCLS.png" alt="Logo empresa"> 
+        <nav>
             <ul>
-                <li><a class="inicio" href="index.html">INICIO</a></li>
-                <li><a class="prod" href="./pages/productos.html">PRODUCTOS</a></li>
-                <li><a class="nov" href="./pages/novedades.html">NOVEDADES</a></li>
-                <li><a class="nos" href="./pages/nosotros.html">NOSOTROS</a></li>
-                <li><a class= "cont" href="./pages/contacto.html">CONTACTO</a></li>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="./pages/productos.html">PRODUCTOS</a></li>
+                <li><a href="./pages/novedades.html">NOVEDADES</a></li>
+                <li><a href="./pages/nosotros.html">NOSOTROS</a></li>
+                <li><a href="./pages/contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero__text">
+    <section>
+        <div>
             <h2>EXPERTOS EN MATERIALES ELÉCTRICOS</h2>
             <p>Hacemos presupuestos en el día, consulta por cualquier producto que necesites y nos comunicaremos a la brevedad.</p>
         </div>
     </section>
 
-    <main class="main-index">
-        <section class="principal">
-                <article class="principal__articulo">
-                    <h2 class="principal__titulo">¡NOVEDADES!</h2>
-                    <div class="imagen-nov">
-                        <h3 class="principal__subtitulo"  data-aos="fade-down">¿Querés conocer nuestras novedades?</h3>
-                        <p class="principal__descripcion"  data-aos="fade-down">¡Encontrá los últimos productos y las mejores ofertas!</p>
+    <main>
+        <section>
+                <article>
+                    <h2>¡NOVEDADES!</h2>
+                    <div>
+                        <h3>¿Querés conocer nuestras novedades?</h3>
+                        <p>¡Encontrá los últimos productos y las mejores ofertas!</p>
                         <form action="./pages/novedades.html">
                             <input type="submit" class="btn" value="NOVEDADES">
                         </form>
                     </div>
                 </article>
-                <article class="principal__articulo">
-                    <h2 class="principal__titulo">¡PRODUCTOS!</h2>
-                    <div class="imagen-prod">
-                        <h3 class="principal__subtitulo" data-aos="fade-down">Conocé nuestra lista de productos</h3>
-                        <p class="principal__descripcion" data-aos="fade-down">Iluminación led, accesorios para iluminación, materiales eléctricos y mucho más.</p>
+                <article>
+                    <h2>¡PRODUCTOS!</h2>
+                    <div>
+                        <h3>Conocé nuestra lista de productos</h3>
+                        <p>Iluminación led, accesorios para iluminación, materiales eléctricos y mucho más.</p>
                         <form action="./pages/productos.html">
                             <input type="submit" class="btn" value="PRODUCTOS">
                         </form>
                     </div>   
                 </article>
-                <article class="principal__articulo">
-                    <h2 class="principal__titulo">¡PRODUCTOS DESTACADOS!</h2>
-                    <div class="productos">
-                        <div class="principal__tarjeta" data-aos="fade-up-right">
-                            <img src="./img/cable.jpg" class="principal__img" alt="Rollo de cable">
+                <article>
+                    <h2>¡PRODUCTOS DESTACADOS!</h2>
+                    <div>
+                        <div>
+                            <img src="./img/cable.jpg" alt="Rollo de cable">
                         </div>
-                        <div class="principal__tarjeta" data-aos="fade-up">
-                            <img src="./img/lampara.jpg" class="principal__img"  alt="Lámpara led">
+                        <div>
+                            <img src="./img/lampara.jpg" alt="Lámpara led">
                         </div>
-                        <div class="principal__tarjeta" data-aos="fade-up-left">
-                            <img src="./img/reflector.jpg" class="principal__img" alt="Reflector led">
+                        <div>
+                            <img src="./img/reflector.jpg" alt="Reflector led">
                         </div>
                     </div>
                 </article>
         </section>
     </main>
         
-    <footer class="footer">
-        <img src="./img/logoCLS.png" class="footer__img" alt="Logo empresa">
-        <form class="footer__form">
+    <footer>
+        <img src="./img/logoCLS.png"alt="Logo empresa">
+        <form>
             <label for="news-usuario">Suscribite a nuestro Newsletter!</label>
             <input type="email" name= "news-usuario" placeholder="Ingresa tu email">
         </form>
-        <ul class="footer__contacto">
+        <ul>
             <li>11-4145-8460</li>
             <li>Quilmes 225, CABA</li>
             <li>cls@cls.com.ar</li>
         </ul>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    
 </body>
 
 </html>
