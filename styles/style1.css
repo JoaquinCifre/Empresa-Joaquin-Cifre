@@ -3,15 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(125, 133, 151);
-}
 
-ul {
-    list-style-type: none;
-    color: rgb(151, 157, 172);
-}
 
 
 /* BODY */
@@ -134,12 +126,7 @@ body{
         margin-top: 30px;
 }
 
-.principal__descripcion{
-    color: rgb(205, 207, 212);
-    font-size: 1rem;
-    font-weight: 300;
-    padding: 10px;
-}
+
 
 .principal__tarjeta{
     border: none;
@@ -256,6 +243,7 @@ body{
 
     text-align: center;
 
+    margin: 50px;
 
     display:flex;
     flex-direction: column;
