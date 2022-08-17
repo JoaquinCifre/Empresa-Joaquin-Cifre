@@ -52,7 +52,12 @@ body{
     width: 100%;
     font-size: 1.5rem;
     margin-bottom: 15px;
-    
+}
+
+.principal__subtitulo{
+    background-color: rgba(34, 135, 236, 0.1);
+    font-size: 1.3rem;
+    text-transform: uppercase;
 }
 
 .producto__tarjeta{
