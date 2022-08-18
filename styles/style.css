@@ -140,6 +140,22 @@ article > div > h3, p{
     
 }
 
+.btn--form{
+    font-size:0.8rem;
+}
+
+.valoracion{
+    background-color: rgba(10, 38, 65, 0.5);
+    color: rgb(194, 195, 197);
+    border-radius:5px;
+    text-align:center;
+}
+
+
+form{
+    border-radius:20px;
+}
+
 footer{
     background-color: rgb(3, 83, 164);
 
@@ -171,14 +187,18 @@ footer ul{
     margin-left: 15px;
 }
 
+.formulario{
+    background-color:rgb(99, 170, 236);
+    width:80%;
 
+}
 @media(max-width: 480px){
     .img_logo{
-        width:120px;
+        width:100px;
         height: 40px;
     }
 }
-@media (min-width: 769px){
+@media (min-width: 768px){
     .principal__titulo{
     font-size: 2rem;
     }
