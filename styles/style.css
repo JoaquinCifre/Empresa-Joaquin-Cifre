@@ -60,6 +60,13 @@ body{
     text-transform: uppercase;
 }
 
+.descripcion{
+    color: rgb(40, 40, 40);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin:25px;
+}
+
 .producto__tarjeta{
     border: none;
     background-color: rgba(34, 135, 236, 0.3);
@@ -163,6 +170,7 @@ footer ul{
 
     margin-left: 15px;
 }
+
 
 @media(max-width: 480px){
     .img_logo{
