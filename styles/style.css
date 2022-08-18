@@ -13,18 +13,14 @@ header{
     font-size: 1rem;
 }
 
-.nav-link{
-    color: rgb(125, 133, 151);
-}
-
 body{
     background-color: rgb(151, 157, 172);
 }
 
-.container{
-    width: 100%;
-    padding: 0;
+.nav-link{
+    color: rgb(125, 133, 151);
 }
+
 .img_novedades{
     background-image: url(../img/novedades.jpg);
     background-size: cover;
