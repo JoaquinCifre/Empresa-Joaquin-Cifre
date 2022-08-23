@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    color: $color-gris;
+    .nav-link{
+        text-decoration: none;
+        color: $color-gris;
+        &:hover{
+            color:rgb(89, 91, 94);
+        }
+    }
+}
+
+.descripcion{
+    color: $texto-secundario;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin:25px;
+}    
+
+article{
+        div{
+            h3, p{
+                color: $texto-secundario;
+        
+                font-size: 1rem;
+                font-weight: 500;
+                text-transform: uppercase;
+        }
+    }
+}
+    
+    

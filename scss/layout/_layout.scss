@@ -1,0 +1,33 @@
+header{
+    background-color: $color-azul;
+    font-size: 1rem;
+}
+
+body{
+    background-color: $color-gris;
+}
+
+footer{
+    background-color: $color-azul;
+
+    font-size: 0.8rem;
+    font-weight: 500;
+
+    width: 100vw;
+
+    text-align: center;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+    ul{
+        display:flex;
+        flex-direction: column;
+    
+        padding: 5px;
+        margin-top: 25px;
+        margin-right: 15px; 
+    }
+}
+

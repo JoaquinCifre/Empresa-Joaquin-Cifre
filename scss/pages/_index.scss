@@ -1,0 +1,54 @@
+.prod_borde{
+    border: 2px solid rgba(2, 44, 84, 0.21);
+    border-radius:30px;
+}
+
+.img{
+    &_productos{
+        background-image: url(../img/productos.jpg);
+        background-size: cover;
+
+        height: 400px;
+        width: 100%;
+
+        padding: 10px;
+    }
+    &_novedades{
+        background-image: url(../img/novedades.jpg);
+        background-size: cover;
+
+        height: 400px;
+        width: 100%;
+
+        padding: 10px;
+    }
+    &_logo{
+        width: 140px;
+        height: 50px;
+
+        margin-left: 15px;
+    }
+}
+
+.principal{
+    &__titulo{
+        background-color:rgba(34, 135, 236, 0.3);
+        color:rgb(28, 48, 48);
+        width: 100%;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    &__subtitulo{
+        background-color: rgba(34, 135, 236, 0.1);
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+    &__img:hover{
+            border: 3px solid rgba(3, 83, 164, 0.3);
+        
+    }
+}
+
+
+
+
