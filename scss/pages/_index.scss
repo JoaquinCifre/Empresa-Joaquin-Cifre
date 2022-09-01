@@ -1,3 +1,6 @@
+@import "../layout/media";
+@import "../utilidades/variables";
+
 .prod_borde{
     border: 2px solid rgba(2, 44, 84, 0.21);
     border-radius:30px;
@@ -27,16 +30,36 @@
         height: 50px;
 
         margin-left: 15px;
+
+        @include small-dsp{
+            width:100px;
+            height: 40px;
+        }
+        
+        @include tablet{
+            width: 200px;
+            height: 70px;
+    
+            margin-left: 15px;
+        }
     }
 }
 
 .principal{
     &__titulo{
         background-color:rgba(34, 135, 236, 0.3);
-        color:rgb(28, 48, 48);
+        color: map-get($color-tipografia, titulo);
         width: 100%;
         font-size: 1.5rem;
         margin-bottom: 15px;
+        
+        @include tablet{
+            font-size: 2.5rem;
+        }
+
+        @include medium{
+            font-size: 2rem;
+        }
     }
     &__subtitulo{
         background-color: rgba(34, 135, 236, 0.1);

@@ -1,4 +1,10 @@
 $color-azul:  rgb(3, 83, 164); 
 $color-gris: rgb(125, 133, 151);
-$texto-secundario: rgb(40, 40, 40);
 $color-boton: rgba(2, 44, 84, 0.65);
+
+$color-tipografia: (
+    titulo: rgb(28, 48, 48),
+    texto-secundario: rgb(40, 40, 40),
+    valoracion: rgb(194, 195, 197),
+    boton: rgb(205, 207, 212),
+);

@@ -1,3 +1,6 @@
+@import "../layout/media";
+@import "../utilidades/variables";
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -6,8 +9,8 @@ ul {
     list-style-type: none;
     color: $color-gris;
     .nav-link{
+        @extend ul;
         text-decoration: none;
-        color: $color-gris;
         &:hover{
             color:rgb(89, 91, 94);
         }
@@ -15,7 +18,7 @@ ul {
 }
 
 .descripcion{
-    color: $texto-secundario;
+    color: map-get($color-tipografia, texto-secundario);
     font-size: 1.2rem;
     font-weight: 500;
     margin:25px;
@@ -24,11 +27,13 @@ ul {
 article{
         div{
             h3, p{
-                color: $texto-secundario;
-        
+                @extend .descripcion;
                 font-size: 1rem;
-                font-weight: 500;
                 text-transform: uppercase;
+                @include desktop{
+                    color: map-get($color-tipografia, texto-secundario);
+                    font-size: 1.5rem;
+                }
         }
     }
 }

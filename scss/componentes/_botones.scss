@@ -1,6 +1,9 @@
+@import "../layout/media";
+
+
 .btn{
     background-color: $color-boton;
-    color: rgb(205, 207, 212);
+    color: map-get($color-tipografia, boton);
 
     border: 2px rgb(2, 52, 101) solid;
     border-radius: 15px;
@@ -10,18 +13,14 @@
     width: 150px;
     height:40px;
 
-    &__prod{
-        background-color: $color-boton;
-        color: rgb(205, 207, 212);
-
-        border: 2px rgb(2, 52, 101) solid;
-        border-radius: 15px;
-
-        font-weight:500;
-
-        width: 250px;
+    @include desktop{
+        border-radius: 25px;
+        font-size: 1.2rem;
+        width: 180px;
         height:60px;
-    
+    }
+    &__prod{
+        @extend .btn;
         transition-duration: 0.4s;
         transition-delay: 0.1s;
 
