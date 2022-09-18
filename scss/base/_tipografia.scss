@@ -30,8 +30,12 @@ article{
                 @extend .descripcion;
                 font-size: 1rem;
                 text-transform: uppercase;
+                background-color: rgba(255, 255, 255, 0.4);
+                border-radius: 10px;
+                padding: 2px;
                 @include desktop{
                     color: map-get($color-tipografia, texto-secundario);
+                    background-color: rgba(255, 255, 255, 0.1);
                     font-size: 1.5rem;
                 }
         }
