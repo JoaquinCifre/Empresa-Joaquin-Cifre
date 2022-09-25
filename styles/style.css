@@ -359,10 +359,6 @@ h1 {
   font-size: 1.3rem;
   text-transform: uppercase;
 }
-.principal__img:hover {
-  border: 3px solid rgba(3, 83, 164, 0.3);
-  scale: 1.05;
-}
 
 .valoracion {
   background-color: rgba(10, 38, 65, 0.5);
