@@ -39,36 +39,39 @@
     <main class="text-center mt-3">
         <h1 class="principal__titulo p-3">CONTACTO</h1>
         <h2 class="principal__subtitulo">¿DUDAS? ¡COMUNICATE CON NOSOTROS!</h2>
-            <form class="container-fluid formulario mt-4 mb-5 p-2 w-75">
+        <div class="d-flex justify-content-around m-4">
+            <p>Atención telefónica: Lunes a viernes de 9:00 a 18:00 hs. Dejanos tu teléfono y los detalles de tu consulta, te contactaremos a la mayor brevedad posible. También podes escribirnos por WhatsApp!</p>
+        </div>    
+            <form class="container-fluid formulario mt-4 mb-5 p-2 w-80">
                 <fieldset  class="d-flex flex-column">
-                    <legend class="principal__subtitulo">¡Envianos un mensaje!</legend> 
-                    <div class="d-flex align-items-center justify-content-evenly">
+                    <legend class="principal__subtitulo mb-4">¡Envianos un mensaje!</legend> 
+                    <div class="d-flex align-items-center justify-content-around">
                         <label for="nombre-usuario">Nombre y apellido:</label>
-                            <input type="text" id="nombre-usuario" name="nombre-usuario">
+                            <input class="m-3" type="text" id="nombre-usuario" name="nombre-usuario">
                     </div>
-                    <div class="d-flex align-items-center justify-content-evenly">
+                    <div class="d-flex align-items-center justify-content-around">
                         <label for="email-usuario">Email:</label>
-                            <input class="m-3"type="email" id="email-usuario" name="email-usuario"> 
+                            <input class="m-3" type="email" id="email-usuario" name="email-usuario"> 
                     </div>
                     <div class="d-inline-block">
                         <h3 class="principal__subtitulo m-3">¿Por qué motivo querés contactarnos?</h3>
-                        <label for="cotizaciones">Cotizaciones</label>
+                        <label class="m-1" for="cotizaciones">Cotizaciones</label>
                             <input type="radio" id="cotizaciones" name="motivo-consulta" value="consulta-precio">
-                        <label for="tecnica">Consultas técnicas</label>
+                        <label class="m-1" for="tecnica">Consultas técnicas</label>
                             <input type="radio" id="tecnica" name="motivo-consulta" value="consulta-tecnica">
-                        <label for="stock">Consulta de stock</label>
+                        <label class="m-1" for="stock">Consulta de stock</label>
                             <input type="radio" id="stock" name="motivo-consulta" value="consulta-stock" >
                     </div>
-                    <div>
+                    <div class="p-2">
                         <label class= "d-flex m-3" for="mensaje-usuario">Dejanos tu mensaje:</label>
                             <textarea class="w-100" name="Comentarios" id="mensaje-usuario" name="mensaje-usuario" cols="30" rows="10"></textarea>
                     </div>
-                    <div class="m-2">
-                        <label for="news-usuario">¿Querés recibir nuestras novedades y ofertas?</label>
+                    <div class="m-4 d-flex justify-content-center">
+                        <label for="news-usuario" class="me-3">¿Querés recibir nuestras novedades?</label>
                             <input type="checkbox" name= "acepta" value="1">
                     </div>
-                    <div>
-                        <label for="valoracion-usuario">Si ya nos conoce, valore nuestra atención!</label>
+                    <div class="m-3 d-flex justify-content-center">
+                        <label for="valoracion-usuario" class="me-3">Si ya nos conoce, valore nuestra atención!</label>
                         <select class="valoracion" name="valoracion-usuario" id="valoracion-usuario">
                             <option value="valoracion-1">Mala</option>
                             <option value="valoracion-2">Buena</option>
@@ -76,8 +79,8 @@
                         </select>
                     </div>
                     <div class="d-flex justify-content-around m-4">
-                        <input type="submit" class="btn btn--form me-1" value="Contactenos!">
-                        <input type="reset" class="btn btn--form ms-1" value="Limpiar formulario">
+                        <input type="submit" class="btn btn--form me-1" value="CONTACTENOS!">
+                        <input type="reset" class="btn btn--form ms-1" value="LIMPIAR FORMULARIO">
                     </div>    
                 </fieldset>
             </form>
@@ -86,7 +89,7 @@
     <footer class="footer">
         <img src="../img/logoCLS.png" class="img_logo" alt="Logo empresa">
         <form>
-            <label for="news-usuario">Suscribite a nuestro Newsletter!</label>
+            <label for="news-usuario" class="me-3">Suscribite a nuestro Newsletter!</label>
             <input type="email" name= "news-usuario" placeholder="Ingresa tu email">
         </form>
         <ul>
